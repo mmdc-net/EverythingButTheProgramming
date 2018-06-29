@@ -1,7 +1,13 @@
 # curriculum
 In this course, you will learn several valuable skills that programmers, developers and dev-ops use.  Much of it relates to Linux and Unix, but it all works for Windows and Mac users as well.
 ## Audience
-This is a course both for those looking to
+This course requires more interest than experience.  That is, there really aren't anyprerequisites, but this is for people who enjoy hacking away at computers and want to get some new skills.
+It's also perfect for those who have been writing and deploying code, but are missing certain skills that are holding them back.
+It's worth noting that all of the software used in this course is open source and free to use.
+
+## The Command Line
+If you do everything you can to *avoid* the command line, you're not alone. The command line frightens a *lot* of computer professionals.  With just a little bit of understanding and a bit of instruction, you can put it to work for you, without the fear of screwing up your system.
+We'll be using the BASH shell for Windows, Linux and OSX, as well as the Z Shell (zsh and oh-my-zsh for OSX and Linux.)
 
 ## SSH Keys
 SSH, the secure shell, is how you communicate securely on a computer system.  It's used to prove your identity to a remote system, as well as encrypt your traffic during any and all communications with that system.
@@ -25,14 +31,21 @@ Atom is also what's known as an IDE, or "Integrated Development Environment."  I
 ### Visual Studio
 Visual Studio Code, or just "Code" to its proponents, is a surprisingly good cross-platform editor and IDE.  It's from Microsoft, as you might have guessed by the name, but it's also Open Source and there are versions for Windows, Linux and OSX.
 
-## The Command Line
-If you do everything you can to *avoid* the command line, you're not alone. The command line frightens a *lot* of computer professionals.  With just a little bit of understanding and a bit of instruction, you can put it to work for you, without the fear of screwing up your system.
-We'll be using the BASH shell for Windows,Linux and OSX, as well as the Z Shell (zsh and oh-my-zsh for OSX and Linux.)
-
 ## Git
 "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance."
-When you're working on a project of almost any kind, it's
+Git runs on the three major operating systems, so let's get it installed:
+### Installation
+These instructions taken from GitHub user [@derheurst](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+
+[Install Git on Windows](https://github.com/mmdc-net/curriculum/blob/master/git-install-windows.md)
+
+[Install Git on Mac](https://github.com/mmdc-net/curriculum/blob/master/git-install-mac.md)
+
+[Install Git on Linux](https://github.com/mmdc-net/curriculum/blob/master/git-install-linux.md)
+
+There are graphical tools for using Git, but it's best to master a few terminal commands first, to better understand what's happening.
+
 
 ## GitHub, Bitbucket and Gitlab
 To use Git, you don't need to be working with others, but great things can happen when you do.  Using communities like GitHub, you'll get to experience what's called "Social Coding," where a distributed group of developers can work together on a project.
-We'll look at GitHub
+In this course, we will set up your GitHub account, fill in your profile and upload your encryption keys, as well as create your first repository.
