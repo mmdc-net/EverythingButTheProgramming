@@ -1,7 +1,8 @@
 # curriculum
-In this course, you will learn several valuable skills that programmers, developers and dev-ops use.  Much of it relates to Linux and Unix, but for Windows and Mac users.
+In this course, you will learn several valuable skills that programmers, developers and dev-ops use.  Much of it relates to Linux and Unix, but it all works for Windows and Mac users as well.
+## Audience
+This is a course both for those looking to
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SSH_Communications_Security_logo.svg/2000px-SSH_Communications_Security_logo.svg.png "SSH_Communications_Security_logo")
 ## SSH Keys
 SSH, the secure shell, is how you communicate securely on a computer system.  It's used to prove your identity to a remote system, as well as encrypt your traffic during any and all communications with that system.
 
@@ -10,16 +11,19 @@ To a programmer, the choice of a text editor is a very important and personal on
 
 ### Vi/Vim/Gvim
 Vi (Pronounced "Vee-Eye," never "Vai" or "Six") is and editor first written in 1976 by Bill Joy.  It's lean, it's fast and some form of it is on every Unix-like system.
+
 These days, Vim (Rhymes with "him." I know that doesn't make sense, given how vi is never pronounced as a word.) is what most people who use vi use.  
+
 There are many versions and variants, but once you have learned the basics, you can use any of them. We'll be learning those basics, just a few skills to get you started, as well as where to go to learn more.
 
 ### The Atom Editor
 The Atom editor is a "hackable text editor for the 21st Century," according to its developers. It's Open Source.  It's made by GitHub.  It's infinitely extensible using plugins.  
 We'll install it as well as some of the most useful plugins.
+
 Atom is also what's known as an IDE, or "Integrated Development Environment."  IDEs are used to work on whole projects, not just single files.  
 
 ### Visual Studio
-Visual Studio Code, or just "Code" to its proponents, is a surprisingly good cross-platform editor and IDE.  It's from Microsoft, as you might have guessed, but it's also Open Source and there are versions for Windows, Linux and OSX.
+Visual Studio Code, or just "Code" to its proponents, is a surprisingly good cross-platform editor and IDE.  It's from Microsoft, as you might have guessed by the name, but it's also Open Source and there are versions for Windows, Linux and OSX.
 
 ## The Command Line
 If you do everything you can to *avoid* the command line, you're not alone. The command line frightens a *lot* of computer professionals.  With just a little bit of understanding and a bit of instruction, you can put it to work for you, without the fear of screwing up your system.
