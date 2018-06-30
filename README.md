@@ -1,5 +1,6 @@
-# curriculum
+# MMDC.net Curriculum
 In this course, you will learn several valuable skills that programmers, developers and dev-ops use.  Much of it relates to Linux and Unix, but it all works for Windows and Mac users as well.
+
 ## Audience
 This course requires more interest than experience.  That is, there really aren't any prerequisites, but this is for people who enjoy hacking away at computers and want to get some new skills.
 It's also perfect for those who have been writing and deploying code, but are missing certain skills that are holding them back.
