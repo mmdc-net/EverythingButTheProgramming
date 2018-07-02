@@ -35,16 +35,11 @@ Visual Studio Code, or just "Code" to its proponents, is a surprisingly good cro
 ## Git
 "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance."
 Git runs on the three major operating systems, so let's get it installed:
-### Installation
-These instructions taken from GitHub user [@derheurst](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
-
-[Install Git on Windows](https://github.com/mmdc-net/curriculum/blob/master/git-install-windows.md)
-
-[Install Git on Mac](https://github.com/mmdc-net/curriculum/blob/master/git-install-mac.md)
-
-[Install Git on Linux](https://github.com/mmdc-net/curriculum/blob/master/git-install-linux.md)
 
 There are graphical tools for using Git, but it's best to master a few terminal commands first, to better understand what's happening.
+
+[Intro to Git](https://github.com/mmdc-net/curriculum/blob/master/git.md)
+
 
 
 ## GitHub, Bitbucket and Gitlab
