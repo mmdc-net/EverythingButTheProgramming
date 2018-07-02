@@ -21,7 +21,7 @@ Turning a directory into a repo is a very simple process.  Using your terminal, 
                              # You should see the following output:
 # Initialized empty Git repository in C:/Users/User/myProject/.git/
 ````
-This has created a hidden directory called `.git` that you can see, using the '`ls -Flag`' command:
+This has created a hidden directory called `.git` in your directory. You can see the contents of `.git` using the '`ls -Flag`' command:
 ````
 User@x230Len171025 MINGW64 ~/myProject (master)
 $ ls -Flag .git/
@@ -37,6 +37,9 @@ drwxr-xr-x 1 197121   0 Jul  1 12:28 objects/
 drwxr-xr-x 1 197121   0 Jul  1 12:28 refs/
 
 ````
+Generally, we don't mess with the files in the .git directory, with the exception of one:
+The file `config` can be edited to change certain characteristics of the repo. (More on this later.)
+You also have the option of creating a `.gitinore` that lists files that you do not want tracked. This file is generally kept in the top-level directory of your repo.
 ## Adding files to your Repository
 let's add some files for our project.  To start with, we'll add a simple Markdown file called "README.md" and echo some text into it:
 ````
@@ -163,6 +166,6 @@ This is the README.md for myProject
 This is a practice file for learning Git.
 ```
 There's no way I could cover every use case for undoing and re-doing stuff with Git, so let me just give you a [page to bookmark](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/).
-
+## Don't Skimp on your Commit Messages!
 As you can see, the better your commit messages, the easier it is to navigate through time.  Don't be lazy!
 If you take a look at a huge project, like [Linux itself](https://github.com/torvalds/linux), you will see lots of commits.  761,169 commits, as I type this, the [last made about an hour ago by Linus Torvalds himself](https://github.com/torvalds/linux/commit/021c91791a5e7e85c567452f1be3e4c2c6cb6063).  Imagine trying to navigate more than 3/4 of a million commits, if the messages say things like "Fixed some stuff."
