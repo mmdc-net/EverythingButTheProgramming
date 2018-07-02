@@ -29,7 +29,7 @@ We'll install it as well as some of the most useful plugins.
 
 Atom is also what's known as an IDE, or "Integrated Development Environment."  IDEs are used to work on whole projects, not just single files.  
 
-### Visual Studio
+### Visual Studio Code
 Visual Studio Code, or just "Code" to its proponents, is a surprisingly good cross-platform editor and IDE.  It's from Microsoft, as you might have guessed by the name, but it's also Open Source and there are versions for Windows, Linux and OSX.
 
 ## Git
@@ -43,4 +43,5 @@ There are graphical tools for using Git, but it's best to master a few terminal 
 ## GitHub, Bitbucket and Gitlab
 To use Git, you don't need to be working with others, but great things can happen when you do.  Using communities like GitHub, you'll get to experience what's called "Social Coding," where a distributed group of developers can work together on a project.
 In this course, we will set up your GitHub account, fill in your profile and upload your encryption keys, as well as create your first repository.
-[Intro to GitHub](https://github.com/mmdc-net/curriculum/blob/master/github.md)
+[intro to githubl
+](https://github.com/mmdc-net/curriculum/blob/master/github.md)
