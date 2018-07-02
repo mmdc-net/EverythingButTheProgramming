@@ -34,14 +34,13 @@ Visual Studio Code, or just "Code" to its proponents, is a surprisingly good cro
 
 ## Git
 "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance."
-Git runs on the three major operating systems, so let's get it installed:
+Git runs on the three major operating systems we're dealing with here, so let's get it installed:
 
 There are graphical tools for using Git, but it's best to master a few terminal commands first, to better understand what's happening.
 
-[Intro to Git](https://github.com/mmdc-net/curriculum/blob/master/git.md)
-
-
+  [Intro to Git](https://github.com/mmdc-net/curriculum/blob/master/git.md)
 
 ## GitHub, Bitbucket and Gitlab
 To use Git, you don't need to be working with others, but great things can happen when you do.  Using communities like GitHub, you'll get to experience what's called "Social Coding," where a distributed group of developers can work together on a project.
 In this course, we will set up your GitHub account, fill in your profile and upload your encryption keys, as well as create your first repository.
+[Intro to GitHub](https://github.com/mmdc-net/curriculum/blob/master/github.md)
