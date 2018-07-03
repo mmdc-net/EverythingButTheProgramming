@@ -20,8 +20,8 @@ In Windows, you should download "[Git Bash](https://git-scm.com/download/win)" a
 Your terminal prompt promamly looks something like this:
 `jim@host:~$ ` - That's your username and host (computer's) name the current directory, (`~` is shorthand for the current user's home directory,) as well as a dollar sign (`$`) prompt. This prompt means that the shell is ready to accept your typed commands.
 In Bash, the shell, or command interpreter, the core commands are given the shortest names that still avoid ambiguity.  This dates from the days when disks were small and networks slow, but it works well for users now, with a little bit of memorization.
-To see where you happen to be in the filesystem, you type `pwd` and hit enter.  On my system, this gives me:
 ## pwd - where am I?
+To see where you happen to be in the filesystem, you type `pwd` and hit enter.  On my system, this gives me:
 ```
 jim@blinky:~$ pwd
 /home/jim
