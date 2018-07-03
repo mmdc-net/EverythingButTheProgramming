@@ -11,6 +11,11 @@ Git is available for Linux, Mac and Windows.
 
 [Install Git on Linux](https://github.com/mmdc-net/curriculum/blob/master/git-install-linux.md)
 
+When you've got it installed, there's just a bit of configuration needed.  In your terminal, type:
+```
+git config --global user.name "Your Name"      # Tell Git Your Name
+git config --global user.email "your@email"    # Tell Git your Email
+```
 # Creating a Local Repository
 Turning a directory into a repo is a very simple process.  Using your terminal, or Git Bash on Windows, cd to your project's directory:
 ````
