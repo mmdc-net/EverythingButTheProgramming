@@ -1,5 +1,5 @@
 # Github
-(N.B.: You probably want to read through the [Intro to Git](https://github.com/mmdc-net/curriculum/blob/master/git.md)
+(N.B.: You probably want to read through the [Intro to Git](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/git.md)
  before tackling this one.)
 
 ## Downloading projects and files using git
@@ -13,9 +13,9 @@ Git isn't just for development teams--sometimes you just want to grab a reposito
 ### Your GitHub Name
 Choose your name wisely.  Ideally, you'll be creating well-written projects that you'll be proud to show to prospective clients or employers, so you may wind up regretting the name "sk8erboi1996."  Of course, if your tech channel on YouTube has ten million subscribers under that name, go for it!
 ### Upload your SSH Keys
-Create a new key for GitHub, [as directed here:](https://github.com/mmdc-net/curriculum/blob/master/github-ssh.md)
+Create a new key for GitHub, [as directed here:](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/github-ssh.md)
 When you've copied the contents of your github.pub, paste it in here:
 [https://github.com/settings/keys/new](https://github.com/settings/keys/new)
 
 ## Create Your First repo
-Once you are logged in[create a new repo](https://github.com/new) Let's call it "myProject," to coincide with the repo we created in the [Git Module](https://github.com/mmdc-net/curriculum/blob/master/git.md) of this course.
+Once you are logged in[create a new repo](https://github.com/new) Let's call it "myProject," to coincide with the repo we created in the [Git Module](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/git.md) of this course.

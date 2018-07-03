@@ -1,4 +1,4 @@
-![MMDC Logo](https://github.com/mmdc-net/curriculum/blob/master/mmdc.png)
+![MMDC Logo](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/mmdc.png)
 # Everything But The Programming
 In this course, you will learn several valuable skills that programmers, developers and dev-ops use.  Much of it relates to Linux and Unix, but it all works for Windows and Mac users as well.
 It's not a programming course--in fact, it's everything but.  
@@ -51,10 +51,10 @@ Git runs on the three major operating systems we're dealing with here, so let's 
 
 There are graphical tools for using Git, but it's best to master a few terminal commands first, to better understand what's happening.
 
-  [Intro to Git](https://github.com/mmdc-net/curriculum/blob/master/git.md)
+  [Intro to Git](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/git.md)
 
 ## GitHub, Bitbucket and Gitlab
 To use Git, you don't need to be working with others, but great things can happen when you do.  Using communities like GitHub, you'll get to experience what's called "Social Coding," where a distributed group of developers can work together on a project.
 In this course, we will set up your GitHub account, fill in your profile and upload your encryption keys, as well as create your first repository.
 [intro to GitHub
-](https://github.com/mmdc-net/curriculum/blob/master/github.md)
+](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/github.md)
