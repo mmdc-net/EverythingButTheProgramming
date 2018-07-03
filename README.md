@@ -9,6 +9,8 @@ It's worth noting that all of the software used in this course is open source an
 ## The Command Line
 If you do everything you can to *avoid* the command line, you're not alone. The command line frightens a *lot* of computer professionals.  With just a little bit of understanding and a bit of instruction, you can put it to work for you, without the fear of screwing up your system.
 We'll be using the BASH shell for Windows, Linux and OSX, as well as the Z Shell (zsh and oh-my-zsh for OSX and Linux.)
+There's no way I could cover every bash command in this course, but with a bit of introduction, hopefully you can learn the basics and gain some confidence.
+See: [The Command Line](https://github.com/mmdc-net/curriculum/blob/master/commandline.md)
 
 ## SSH Keys
 SSH, the secure shell, is how you communicate securely on a computer system.  It's used to prove your identity to a remote system, as well as encrypt your traffic during any and all communications with that system.
