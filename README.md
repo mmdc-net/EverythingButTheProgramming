@@ -1,3 +1,4 @@
+![MMDC Logo](https://github.com/mmdc-net/curriculum/blob/master/mmdc.png)
 # Everything But The Programming
 In this course, you will learn several valuable skills that programmers, developers and dev-ops use.  Much of it relates to Linux and Unix, but it all works for Windows and Mac users as well.
 It's not a programming course--in fact, it's everything but.  
