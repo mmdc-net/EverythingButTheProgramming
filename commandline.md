@@ -122,3 +122,49 @@ jim@blinky:~$
 ```
 Try it out.  `ls` doesn't change anything about the filesystem, it simply lists what it can, so it's safe to play around with.
 ## Change Directories with `cd`
+`cd` stands for "change directory."  So, to cd to your system's temp directory, simply type:`cd /tmp`
+To quickly go to your home directory, type `cd` by itself.
+  ### A Note on Directory Shortcuts
+  The operating System has a few special ways to work with directories that are worth looking at now.  To illustrate, let's create a new, empty directory and show what's in it:
+  ```
+  jim@blinky:~$ mkdir foo                      # Create a directory
+  jim@blinky:~$ cd foo                         # Move to it
+  jim@blinky:~/foo$ ls -Flag                   # Show all files in detail
+  total 8                                      # blocks (disregard for now)
+  drwxr-xr-x  2 jim 4096 Jul  3 08:14 ./       # ./ is the current dir
+  drwxr-xr-x 28 jim 4096 Jul  3 08:14 ../      # ../ is the parent dir
+  jim@blinky:~/foo$
+  ```
+  (In the example above, any characters after the `# ` is a comment and is ignored by the shell.)
+  As you can see, there are a couple of pseudo files listed, `./` and `../` that refer to the present directory and the parent directory, respectively. They might seem confusing at first, but they are quite convenient, especially when writing scripts.
+  The other directory shortcuts to know about are `/` and `~/`.
+  `~/` is the current user's home directory.
+  `/` is the system's 'root,' or top-level directory. (`/` is the top level, regardless of what disks or partitions may be mounted, which may not be obvious if you're coming from MSDOS.)
+## Using . and .. and /
+Using `cd`, you will frequently use `../` to jump up a directory, or even several: ` cd ../../../`
+You can jump up a directory and then down a different path:
+```
+jim@blinky:~/projects/express-crash-course/node_modules/thunky$ pwd
+/home/jim/projects/express-crash-course/node_modules/thunky
+jim@blinky:~/projects/express-crash-course/node_modules/thunky$ cd ../../views/partials/
+jim@blinky:~/projects/express-crash-course/views/partials$ pwd
+/home/jim/projects/express-crash-course/views/partials
+jim@blinky:~/projects/express-crash-course/views/partials$
+```
+As you can see, by using `cd ../../views/partials/` I was able to go up two directories and down two others.  Very handy.
+Using `./` for the current directory is equally handy.  Let's say you have a file in `/tmp` that you want to copy to the current directory.  This is easy, using `.`:
+`jim@blinky:~/foo$ cp /tmp/foofile .`
+As you can see in the above example, I referred to the temp directory as `/tmp` to show that I mean the one in the top level.  Without the slash, bash would try to find it in the current directory:
+```
+jim@blinky:~/foo$ ls tmp
+ls: cannot access 'tmp': No such file or directory
+```
+That's no good.  Let's add a slash:
+```
+jim@blinky:~/foo$ ls /tmp
+Atom Crashes            npm-24389-306fddb6  npm-25648-6f8e9b78        ssh-VEqfObRxjsIn
+atom-_ghd1Q4JZcYM.sock  npm-25174-374deba0  npm-25735-6693d870        systemd-private-9fb1262ffc4543cfb0a7521d2ebea6c2-rtkit-daemon.service-GBmPyU
+foofile                 npm-25424-c91c7ea8  npm-25958-f48a95f8        vboxdrv-Module.symvers
+hsperfdata_root         npm-25506-00d378fb  npm-26005-8669fc9d
+mozilla_jim0            npm-25581-851a2066  snap.1000_discord_BBdum6
+```
