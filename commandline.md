@@ -140,7 +140,7 @@ To quickly go to your home directory, type `cd` by itself.
   The other directory shortcuts to know about are `/` and `~/`.
   `~/` is the current user's home directory.
   `/` is the system's 'root,' or top-level directory. (`/` is the top level, regardless of what disks or partitions may be mounted, which may not be obvious if you're coming from MSDOS.)
-## Using . and .. and /
+### Using . and .. and /
 Using `cd`, you will frequently use `../` to jump up a directory, or even several: ` cd ../../../`
 You can jump up a directory and then down a different path:
 ```
@@ -168,3 +168,4 @@ foofile                 npm-25424-c91c7ea8  npm-25958-f48a95f8        vboxdrv-Mo
 hsperfdata_root         npm-25506-00d378fb  npm-26005-8669fc9d
 mozilla_jim0            npm-25581-851a2066  snap.1000_discord_BBdum6
 ```
+> Unix (and Linux and OS X's BSD subsystem and even Windows' Git Bash) rae case-sensitive and picky about things like slashes.  Don't let it intimidate you!
