@@ -168,4 +168,5 @@ foofile                 npm-25424-c91c7ea8  npm-25958-f48a95f8        vboxdrv-Mo
 hsperfdata_root         npm-25506-00d378fb  npm-26005-8669fc9d
 mozilla_jim0            npm-25581-851a2066  snap.1000_discord_BBdum6
 ```
+> # Note:
 > Unix (and Linux and OS X's BSD subsystem and even Windows' Git Bash) rae case-sensitive and picky about things like slashes.  Don't let it intimidate you!
