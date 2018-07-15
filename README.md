@@ -19,6 +19,10 @@ Even simple things like SSH'ing to a remote server to `tail -f` (or better, `les
 ### YouTube
 If you're going to keep current with the industry, you're going to have to dedicate a few hours a week or a month to self-study and there's no better place to start than YouTube.
 The more of the supportive technologies taught in this course that you know, the better you can process what you're being shown in the video.  
+## The Unix Filesystem
+We're not going to cover every aspect of the Unix Filesystem, but it's important to have a good working knowledge of how to get around and where to stash your stuff.
+We'll also take a look at file and directory permissions and learn why they are so important.
+  [Intro to Unix Filesystems](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/filesystems.md)
 ## The Command Line
 If you do everything you can to *avoid* the command line, you're not alone. The command line frightens a lot of computer professionals.  With just a little bit of understanding and a bit of instruction, you can put it to work for you, without the fear of screwing up your system.
 We'll be using the BASH shell for Windows, Linux and OSX.  It's a good place to start, as it's become kind of a 'universal' shell.  Also, most of the examples online are Bash, so it simplifies looking stuff up.
@@ -46,7 +50,8 @@ Atom is also what's known as an IDE, or "Integrated Development Environment."  I
 Visual Studio Code, or just "Code" to its proponents, is a surprisingly good cross-platform editor and IDE.  It's from Microsoft, as you might have guessed by the name, but it's also Open Source and there are versions for Windows, Linux and OSX.
 
 ## Git
-"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance."
+"Git is a free and open source distributed version control system designed to handle everythi
+ng from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance."
 Git runs on the three major operating systems we're dealing with here, so let's get it installed:
 
 There are graphical tools for using Git, but it's best to master a few terminal commands first, to better understand what's happening.
