@@ -22,7 +22,7 @@ The more of the supportive technologies taught in this course that you know, the
 ## The Unix Filesystem
 We're not going to cover every aspect of the Unix Filesystem, but it's important to have a good working knowledge of how to get around and where to stash your stuff.
 We'll also take a look at file and directory permissions and learn why they are so important.
-  [Intro to Unix Filesystems](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/filesystems.md)
+  [Intro to Unix Filesystems](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/filesystem.md)
 ## The Command Line
 If you do everything you can to *avoid* the command line, you're not alone. The command line frightens a lot of computer professionals.  With just a little bit of understanding and a bit of instruction, you can put it to work for you, without the fear of screwing up your system.
 We'll be using the BASH shell for Windows, Linux and OSX.  It's a good place to start, as it's become kind of a 'universal' shell.  Also, most of the examples online are Bash, so it simplifies looking stuff up.
