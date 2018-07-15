@@ -18,4 +18,4 @@ When you've copied the contents of your github.pub, paste it in here:
 [https://github.com/settings/keys/new](https://github.com/settings/keys/new)
 
 ## Create Your First repo
-Once you are logged in[create a new repo](https://github.com/new) Let's call it "myProject," to coincide with the repo we created in the [Git Module](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/git.md) of this course.
+Once you are logged in [create a new repo](https://github.com/new) Let's call it "myProject," to coincide with the repo we created in the [Git Module](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/git.md) of this course.
