@@ -10,7 +10,7 @@ It's worth noting that all of the software used in this course is open source an
 ## Use Cases
 How will what you learn here help you personally and professionally?
 ### Job Interviews
-"Show me your GitHub."
+> "*Show me your GitHub.*"
 Interviewers and prospective teams more and more want to see what you've done on GitHub--it's the demo reel for a programmer's career these days.  It's not only a great way to work, it's a great way to show off your abilities as a coder.  Even if you only contribute documentation and perhaps bug fixes to Open Source projects, it shows that you are proactive and detail-oriented.  
 ### Working With Others
 Let's say you're a competent coder, developing in the latest and greatest framework technology, but you've always worked by yourself, storing all of your files on your laptop, until you FTP them up to the server to deploy.
