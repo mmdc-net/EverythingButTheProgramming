@@ -46,8 +46,14 @@ drwxr-xr-x  23 root  4096 Jul  3 06:54 ./
 drwxr-xr-x  23 root  4096 Jul  3 06:54 ../ 
 ```
 These are a couple of special directories that every directory contains.
-
-``` bash
-drwxr-xr-x  23 root  4096 Jul  3 06:54 ./ 
-drwxr-xr-x  23 root  4096 Jul  3 06:54 ../ 
-```
+#### Dot
+The first one, ` ./ ` (referred to as 'dot',) is the current directory.  It's a useful shortcut for saying "here," when using the terminal. For example, you might want to copy your Vim configuration file  (` .vimrc `) from a server to the directory where you happen to be:
+```bash
+ $ scp example.com:/home/jim/.vimrc .
+ .vimrc                                             100% 4401     4.3KB/s
+```  
+#### Dot Dot
+The other special directory is ` ../ ` which is the parent directory, relative to the current directory. 
+(In the case of the root directory, ` ../ ` and ` ./ ` are synonymous.)
+Being able to use ` ../ ` in scripts to mean "one directory up" is essential for writing portable commands and scripts.
+![Filesystem Hierarchy](https://github.com/mmdc-net/EverythingButTheProgramming/blob/master/Standard-unix-filesystem-hierarchy.svg)
